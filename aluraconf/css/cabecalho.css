@@ -1,0 +1,70 @@
+.cabecalho {
+
+    background: url(../img/destaque.jpeg) no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+}
+
+.cabecalho .main-menu {
+
+    text-align: center;
+}
+
+.cabecalho .main-menu .menu-item {
+
+    display: inline-block;
+    margin: 0 2px 32px 0;
+}
+
+.cabecalho .main-menu .menu-item a {
+
+    color: white;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.cabecalho .main-menu .menu-item a:hover {
+    background-color: #48A3A6;
+}
+
+.cabecalho .jumbotron {
+    text-align: center;
+    padding: 0 0 44px 0;
+    text-transform: uppercase;
+}
+
+.cabecalho .painel-main {
+
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+
+.cabecalho .jumbotron .title {
+
+    font-size: 3em;
+}
+
+.cabecalho .jumbotron .subtitle {
+    
+    font-size: 2.6em;
+    color: #64FF64;
+    margin-top: 8px;
+}
+
+.cabecalho .jumbotron .painel-subscribe {
+
+    margin-top: 28px;
+}
+
+@media(min-width: 650px) {
+
+    .cabecalho .jumbotron {
+
+        font-size: 28px;
+    }
+            
+}
