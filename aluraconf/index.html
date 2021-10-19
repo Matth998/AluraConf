@@ -17,8 +17,8 @@
     <header class="cabecalho">
         <nav class="main-menu">
             <ul>
-                <li class="menu-item"><a href="#">Sobre</a></li>
-                <li class="menu-item"><a href="#">Palestrantes</a></li>
+                <li class="menu-item"><a href="#" id="sobre">Sobre</a></li>
+                <li class="menu-item"><a href="#" id="palestrante">Palestrantes</a></li>
             </ul>
         </nav>
         <div class="jumbotron">
@@ -27,7 +27,7 @@
                 <h2 class="subtitle">30MAIO|RIO</h2>
             </section>
             <section class="painel-subscribe">
-                <a href="#" class="button">Inscreva-se</a>
+                <a href="#"  id="inscreva" class="button">Inscreva-se</a>
             </section>
         </div>
     </header>
@@ -86,23 +86,30 @@
         <section class="formulario">
             <div class="container">
                 <h2 class="title">Seus dados</h2>
-                <form>
+                <form id="form">
                     <div class="campo">
-                        <label CLASS="campo-label">Nome</label>
-                        <input class="campo-input">
+                        <p class="validaNome"> Por favor, digite um nome válido </p>
+                        <label class="campo-label">Nome</label>
+                        <input class="campo-input" id="nome">
                     </div>
                     <div class="campo">
+                        <p class="validaEmail"> Por favor, digite um email válido </p>
                         <label class="campo-label">E-mail</label>
-                        <input class="campo-input"> 
+                        <input class="campo-input" type="email" id="email"> 
                     </div>
                     <div class="button-place">
-                        <button class="button">REALIZAR INSCRIÇÃO</button>
+                        <button id="inscrição" class="button">REALIZAR INSCRIÇÃO</button>
                     </div>
                 </form>
             </div>
         </section>
 
     </main> 
+
+    <script src="js/jquery.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/inscreva.js"></script>
+
 </body>
 
 </html>

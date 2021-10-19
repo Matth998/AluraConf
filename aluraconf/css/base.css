@@ -58,3 +58,16 @@
     background-color: #48A3A6;
     border-radius: 8px;
 }
+
+.validaNome{
+
+    color: red;
+    display: none;
+}
+
+.validaEmail{
+
+    color: red;
+    display: none;
+
+}
